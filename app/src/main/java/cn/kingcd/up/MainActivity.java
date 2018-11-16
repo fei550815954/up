@@ -33,7 +33,8 @@ public class MainActivity extends BaseActivity {
                 , Manifest.permission.READ_PHONE_STATE)
                 .subscribe(granted -> {
                     if (granted) {
-
+//dasd dasd asd as das das da
+                        L.d("我测试的");
                     } else {
 
                     }
