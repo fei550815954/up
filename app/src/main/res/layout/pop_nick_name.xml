@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_centerHorizontal="true"
+    android:layout_height="wrap_content">
+
+    <com.zhy.autolayout.AutoRelativeLayout
+        android:layout_marginBottom="20px"
+        android:layout_width="match_parent"
+        android:layout_height="500px"
+        android:background="@drawable/huise_kongxinyuan_bg">
+
+        <TextView
+            android:id="@+id/tv_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50px"
+            android:text="密码"
+            android:textColor="#494A4A"
+            android:textSize="40px" />
+
+        <EditText
+            android:maxLength="20"
+            android:inputType="textPassword"
+            android:id="@+id/et_NiCheng"
+            android:layout_width="match_parent"
+            android:layout_height="100px"
+            android:layout_below="@+id/tv_1"
+            android:layout_marginLeft="50px"
+            android:layout_marginRight="50px"
+            android:layout_marginTop="50px"
+            android:background="@drawable/huise_kongxinyuan_bg"
+            android:lines="1"
+            android:hint="请输入密码                                                  "
+            android:paddingLeft="30px"
+            android:textSize="40px" />
+
+        <com.zhy.autolayout.AutoLinearLayout
+            android:id="@+id/ll_1"
+            android:layout_width="match_parent"
+            android:layout_height="130px"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/huise_shixin_bg"
+            android:orientation="horizontal"
+            android:weightSum="2">
+            <TextView
+                android:id="@+id/tv_OK"
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="确认"
+                android:textSize="40px" />
+            <TextView
+                android:layout_width="1px"
+                android:layout_height="match_parent"
+                android:background="#bcbcbc" />
+            <TextView
+                android:id="@+id/tv_QuXiao"
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="取消"
+                android:textSize="40px" />
+
+
+
+
+        </com.zhy.autolayout.AutoLinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:background="#bcbcbc"
+            android:layout_above="@+id/ll_1"
+            android:layout_height="1px" />
+    </com.zhy.autolayout.AutoRelativeLayout>
+</com.zhy.autolayout.AutoRelativeLayout>

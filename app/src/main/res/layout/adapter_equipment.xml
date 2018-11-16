@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:id="@+id/rl10"
+    android:layout_height="120px"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/tv_Num"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="10px"
+        android:layout_marginTop="30px"
+        android:gravity="center"
+        android:text="1"
+        android:textColor="#000000"
+        android:textSize="40px" />
+
+    <TextView
+        android:id="@+id/tv_Mac"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="20px"
+        android:layout_marginTop="30px"
+        android:layout_toRightOf="@+id/tv_Num"
+        android:gravity="center"
+        android:text="sadasdasdasdasdasdasdasdas"
+        android:textColor="#000000"
+        android:textSize="40px" />
+    <TextView
+        android:id="@+id/tv_Name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="100px"
+        android:layout_marginTop="30px"
+        android:lines="1"
+      android:layout_toRightOf="@+id/tv_Mac"
+        android:gravity="center"
+        android:text="s"
+        android:textColor="#000000"
+        android:textSize="40px" />
+    <TextView
+        android:id="@+id/tv_XinHao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="100px"
+        android:layout_marginTop="30px"
+        android:lines="1"
+        android:layout_toRightOf="@+id/tv_Name"
+        android:gravity="center"
+        android:text="s"
+        android:textColor="#000000"
+        android:textSize="40px" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_below="@+id/tv_Num"
+        android:layout_marginTop="30px"
+        android:background="#000000" />
+
+</com.zhy.autolayout.AutoRelativeLayout>
